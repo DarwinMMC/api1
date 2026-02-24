@@ -10,3 +10,9 @@ def hello_world():
 @app.get("/hello")
 def hello_world():
     return {"message": "Hello, World!"}
+
+
+@app.get("/test")
+def hello_world():
+    return {"message": "Hello, World1!"}
+
