@@ -3,7 +3,7 @@ from fastapi import FastAPI
 app = FastAPI()
 
 @app.get("/")
-def hello_world():
+def entry():
     return {"message": "Hello, World1!"}
 
 
@@ -13,6 +13,6 @@ def hello_world():
 
 
 @app.get("/test")
-def hello_world():
+def tets():
     return {"message": "Hello, World1!"}
 
